@@ -54,7 +54,7 @@ const ConferenceEvent = () => {
 
     const getItemsFromTotalCost = () => {
         const items = [];
-        const items = [];
+
     venueItems.forEach((item) => {
       if (item.quantity > 0) {
         items.push({ ...item, type: "venue" });
